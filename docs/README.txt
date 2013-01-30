@@ -10,8 +10,8 @@ Now follow these steps:
 Download Zend Framework from here:
 http://framework.zend.com/releases/ZendFramework-1.12.0/ZendFramework-1.12.0-minimal.zip
 
-Unpack the ZendFramework-1.12.0-minimal.zip somewhere OUTSIDE of the Zend Base project folder.
-Adjust the path in "public/index.php" to point to the unpacked Zend Framework library folder (/path/to/ZendFramework-1.12.0-minimal/library) !
+Unpack the ZendFramework-1.12.0-minimal.zip somewhere OUTSIDE of the project folder.
+Adjust the path in "public/index.php" to point to the unpacked Zend Framework library folder (/path/to/ZendFramework-1.12.0-minimal/library).
 
 
 2. Edit your hosts file
@@ -31,12 +31,12 @@ Here's a sample VHOST configuration you might want to use.
     ServerName mixup2.com
 
     # Adjust this path !
-    DocumentRoot "/Users/visualeyez/dev/mixup-base/public"
+    DocumentRoot "/Users/anri/dev/mixup-test-v1/public"
 
     SetEnv APPLICATION_ENV "development"
 
     # Adjust this path !
-    <Directory "/Users/visualeyez/dev/mixup-base/public">
+    <Directory "/Users/anri/dev/mixup-test-v1/public">
 
         Options -Indexes MultiViews FollowSymLinks
         DirectoryIndex index.php
