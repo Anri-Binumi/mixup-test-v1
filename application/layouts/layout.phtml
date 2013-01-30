@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8">
+
+        <title>Zend Base</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <!-- Le styles -->
+        <link href="/css/bootstrap.min.css" rel="stylesheet">
+        <link href="/css/font-awesome.css" rel="stylesheet">
+        <link href="/js/libs/google-code-prettify/prettify.css" rel="stylesheet">
+        <link href="/css/style.css" rel="stylesheet">
+
+        <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+
+        <!-- All JavaScript at the bottom, except this Modernizr build.
+             Modernizr enables HTML5 elements & feature detects for optimal performance.
+             Create your own custom Modernizr build: www.modernizr.com/download/ -->
+        <script src="/js/libs/modernizr-2.5.3.min.js"></script>
+
+        <!-- Le fav and touch icons -->
+        <link rel="shortcut icon" href="/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-57-precomposed.png">
+
+    </head>
+
+    <body data-spy="scroll" data-target=".bs-docs-sidebar">
+
+        <!-- Navbar
+        ================================================== -->
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="brand" href="/">Zend Base</a>
+
+                    <?
+                    $page = !empty($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '/';
+                    ?>
+
+                    <div class="nav-collapse collapse">
+
+                        <ul class="nav">
+                            <li class="<?= $page == '/' ? 'active' : '' ?>">
+                                <a href="/">Home</a>
+                            </li>
+                            <li class="<?= $page == '/index/test-page/' ? 'active' : '' ?>">
+                                <a href="/index/test-page/">Test Page</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <section id="main-section">
+
+            <?= $this->layout()->content ?>
+
+        </section>
+
+        <!-- Footer
+        ================================================== -->
+        <footer class="footer">
+            <div class="container">
+                <p class="pull-right"><a href="#">Back to top</a></p>
+                <p>Built by some pretty lazy coders.</p>
+                <p>No silly licenses.</p>
+                <p>Icons from Font Awesome.</p>
+            </div>
+        </footer>
+
+
+
+        <!-- Le javascript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+
+        <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+
+        <script src="/js/bootstrap.min.js"></script>
+        <script src="/js/libs/google-code-prettify/prettify.js"></script>
+
+        <!-- scripts concatenated and minified via build script -->
+        <script src="/js/plugins.js"></script>
+        <script src="/js/script.js"></script>
+        <!-- end scripts -->
+
+    </body>
+</html>

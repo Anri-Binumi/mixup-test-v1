@@ -1,0 +1,406 @@
+
+Instructions
+============
+
+Put a number between 1-6 IN FRONT of each row,
+where each number means one of the following:
+
+Value Description
+=================
+1   I have heard about it
+2   I have seen it
+3   I have seen it and applied it
+4   I have applied it in commercial context
+5   I know advantages, disadvantages and can make a decision when to apply it
+6   It is one of my specialties, i know everything about it can make decisions and teach others
+
+PHP
+===
+
+1. General
+==========
+PHP as web development language
+Forms with upload fields
+Using Escaping methods (htmlentities/htmlspecialchars etc)
+Concept of Exceptions in PHP5
+Closed Areas/Sessions
+
+2. Classes
+==========
+Development with Classes
+Inheritance
+Scope (protected, private, public)
+The Static Concept (static functions, variables)
+Abstract Classes
+Namespaces/Aliase
+Interfaces
+
+3. Abstract Development
+=======================
+Integration of PHP into HTML
+Template Engines (Smary, ITX)
+Usage of mysql functions
+Usage of mysqli functions
+DB Access via Abstraction Layer
+PHP Libraries
+Encapsulation
+Code Quality
+Coding Standards
+Defensive Programming
+
+4. Performance / Scalability / Security
+=======================================
+Caching of data structures
+Clustering
+Cloud Applications
+Scaling and scalability
+Security (File Structure, Escaping, Tooling)
+Security - SQL injection
+Security XSS attacks
+Backup Strategies
+
+5. Miscellaneous
+================
+Create Text E-Mails with PHP
+Create HTML E-Mails with PHP
+Create E-Mail with attachments
+Development using UTF-8
+PDF Creation using PHP
+Compression with PHP
+Image Generation with PHP
+Regular Expressions
+XML Export/Import
+SOAP / XML RPC System
+Inline Documentation with PHPDOC
+Ajax Development (Rest, Json)
+
+Zend Framework (> 1.8)
+======================
+
+1. General
+==========
+Zend Framework used in a project
+Extended Zend Framework with custom classes
+Autoloading concept understood and applied
+Frontcontroller Concept
+Bootstrapping Concept
+Zend_Application_Resource_* understood and applied
+Module Concept
+
+
+2. Forms
+========
+Zend_Form used, understood, applied
+Forms rendered with Zend_Form
+Render individual elements with Zend_Form
+Custom Decorators
+Uploads with Zend_Form
+Custom Zend Validators
+Custom Zend Filters
+
+3. Database
+===========
+Zend_DB
+"Active-Record" Pattern with Zend_Db_Table_Row
+Custom Abstraction of Databases
+
+4. Views
+========
+Zend_View and Zend_Layout
+ViewHelper
+Partials
+Zend_Translation and Zend_Locale
+
+5. Controller, Dispatching & Routing
+====================================
+Zend_Controller_Action used
+Request & Response objects used
+Routing-Concept
+Request-Dispatching-Process
+ActionHelper (& HelperBroker)
+Plugin-Concept
+Session Handling (Zend_Session*)
+REST-Routing und Controller
+
+6. Miscellaneous
+================
+PDF Generation with Zend_Pdf
+Usage Zend_Paginator in Lists Representations
+E-Mail-Sending with Zend_Mail* Components
+Usage of Zend_Service_* Components
+Authentication with Zend_Auth
+Access control with Zend_Acl
+Caching with Zend_Cache
+Zend console tools
+
+
+Internationalization
+====================
+Database (UTF-8)
+Differences of Engines
+PHP Functions
+Text Implementation (Gnu Text)
+
+
+Unit Tests
+==========
+PHPUnit
+DatabaseUnit
+Mocking
+Stubbing
+Unit Testing
+
+Integration Testing
+===================
+Selenium
+JMeter
+Benchmarking
+Tests erstellt
+Tests aktuell halten
+Selenium Server
+Andere Frontend Testing Tools?
+PHP Sniffer
+Checkstyle
+PHPDepend
+PMD
+DeadCodeDetector
+
+
+Patterns
+========
+Patterns applied
+Recognize Patterns
+Extend Patterns
+Adapter
+Mediator
+Factory
+Singleton
+Bridge
+Composite
+Decorator
+Facade
+Flyweight
+Proxy
+Responsibility Chain
+Command
+Iterator
+Mediator
+Memento
+Observer
+State
+Strategy
+Template Method
+Visitor
+Builder
+Prototype
+
+Macro Software Design
+=====================
+Presentation Layer (MVC)
+Data Source Layer (ORM)
+Domain Layer (Domain Model)
+Development Cycle (analysis, design, implementation, test, maintenance)
+
+Dependency Injection
+====================
+IOC
+Spring
+Zend 2.0
+Pimple
+flow3
+symfony
+pico
+IOC Framework used
+IOC/DI Container written
+Problems, dangers, pitfalls, disadvantages, advantages
+
+
+MySQL
+=====
+
+1. General
+Used and Proficient Handling
+Access via Workbench and PhpMyAdmin or equivalent Tool
+Console Access
+
+2. SQL
+Read Statements
+Join-Statements
+Complex Statements (union, subqueries)
+Write Statements
+Multi-Writes (Multitable Update/Replace)
+Views used, created, changed
+MySQL Programming with stored procedures/triggers
+
+3. Storage Engines
+Knowledge about Engines (innodb, myisam)
+InnoDB Transactions
+Row Locking
+Savepoints in InnoDB
+MyISAM Lock Behvaior
+InnoDB consistent read Behavior
+
+4. Performance
+Indices, Optimization
+Differences unique, primary, normal index
+Optimization mit EXPLAIN
+Optimization mit PROFILING
+Organisation of data (sharding)
+Locking Problems, solutions, dangers (z.B. Deadlock)
+
+5. Scalability
+Server configuration my.cnf
+replication (Master, Slaves)
+Hot Backups (konsistente Live-Backups)
+Benchmarking
+Memory Optimization
+
+
+Javascript
+==========
+
+1. General
+Javascript as scripting language
+Dom manipulation
+Prototyping
+Events
+Closures
+Errorhandling
+Caching
+AJAX
+Policies (z.B. same origin Policy)
+Performance
+Knowledge on browser compatibility
+- IE6
+- IE7 and later
+- Opera
+- Workarounds for various compatibility problems
+
+
+2. Classes/ "OOP"
+Objects / Classes
+Inheritance /Encapsulation
+Attributes / Methods
+Namespaces
+
+3. Usage of external libraries and tools
+scriptaculous / prototype
+jQuery
+MooTools
+Dojo
+ExtJS
+YUI
+GEARS
+Editorsoftware (TinyMCE, CKEditor)
+Plugin Entwicklung
+Joose
+
+4. Codemanagement / miscellaneous Tools
+jsLint
+Minify/Pack
+Test-Suites
+Firebug
+
+
+Linux
+=====
+
+1. General
+Linux as Server Operating System
+Independent root server administration
+Usage of linux systems as sales server
+
+2. Installation
+Independent installation and configuration of server
+Installation of kernel
+Package installation and update in linux
+Hardware configuration for linux
+Installation as desktop system
+
+3. Shell
+Active Work with linux shell
+Shell Scripts
+File Search
+Cronjobs
+File editing
+
+4. Optimization
+Server optimization
+Configuration of system limit for files and processes
+Configuration of network components
+Start, Stop, Status of daemons
+
+5. Subversion
+Usage of version software for projects
+Commit Update concept
+Subversion of Git in projects
+Branching
+Merging
+
+6. Debian
+Debian as server operating system
+APT as package administration software
+Upgrade/Update of packages on Debian
+Backporting to stables
+Upgrade of Distributation Version to newer versions
+
+7. Webserver
+Experience, Installment, Configuration of Apache
+Experience, Installment, Configuration of Lighttpd
+Experience, Installment, Configuration of Ngnix
+Rewrite for SEO
+Configuration of PHP module, cgi, fastcgi
+performance tuning
+
+8. Mailserver
+Installation and configuration of a mail server
+- Exim
+- Qmail
+- Postfix
+Knowledge about SMTP, IMAP, POP3
+Mail Processing through scripts
+
+9. MySQL DB Server
+Installation and Configuration of Mysql
+Downgrade and replay of backups
+Replication and Binary Logging
+Configuration of Slow Query Log
+Optimization Configuration e.g. Storage VAriables
+
+xHTML / CSS
+===========
+
+1. HTML
+Valid HTML
+Valid XHTML
+Tables
+Forms
+Formats
+
+2. CSS
+Using of functional class names (Semantik)
+CSS 2 & 2.1
+CSS 3
+Browser Compatibility, Browser Gates, Browser Hacks
+- IE 6
+- IE 7 or higher
+Box Model
+Text Formats (float, clear)
+Positioning (relative, absolute)
+measurements (px, em, %)
+pseudo classes
+media specific stylesheets
+Weighting of selectors
+Layers (z-index)
+Efficiency optimization of CSS
+
+Browsers
+========
+
+Chrome
+Chrome Extensions
+Firefox
+Firefox Extensions
+FirePHP
+FireBug
+FireBugLite

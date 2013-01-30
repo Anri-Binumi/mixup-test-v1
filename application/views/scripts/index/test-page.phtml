@@ -1,0 +1,79 @@
+
+<div class="jumbotron masthead">
+    <div class="container">
+        <h1>Test Page</h1>
+        <p>Flex your skills and recreate the screen-shot using HTML.</p>
+        <p><a href="/" class="btn btn-primary btn-large">Home Page</a></p>
+        <ul class="masthead-links">
+            <li><a href="http://twitter.github.com/bootstrap/index.html">Bootstrap Documentation</a></li>
+            <li><a href="http://fortawesome.github.com/Font-Awesome/">Font Awesome Documentation</a></li>
+            <li><a href="http://framework.zend.com/manual/en/manual.html">Zend Framework Documentation</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="marketing">
+
+        <br/>
+        <br/>
+
+        <div class="row-fluid">
+            <div class="span12">
+
+                <h4>Recreate this screen-shot</h4>
+                <p class="lead">
+                    Find the view template that holds this text and add the mark-up for a HTML table that looks <b>exactly like</b>
+                    this screen-shot <i class="icon-arrow-down"></i></p>
+
+                <img src="/img/test-table.png" alt="This is a screenshot!" title="This is a screenshot!" />
+
+            </div>
+        </div>
+
+        <hr class="soften">
+
+        <div class="row-fluid">
+
+            <div class="span12">
+
+                <h3>Place your table here <i class="icon-hand-down"></i></h3>
+
+                <!--
+
+                Hint #1: You want to iterate over the array in $this->users which should contain 3 users entries (if you followed the instructions in the controller correctly).
+
+                Hint #2: You must make this a Bootstrap based table.
+
+                Hint #3: Font Awesome is part of our loaded assets (in the layout) so be sure to use some icons !
+
+                Hint #4: The print_r() below dumps the available data nicely. Use it to explore the data structure.
+
+                -->
+
+                <? if (true): ?>
+                    <pre>
+                        <?= print_r($this->users, true) ?>
+                    </pre>
+                <? endif; ?>
+
+            </div>
+
+        </div>
+
+        <hr class="soften">
+
+        <div class="row-fluid">
+
+            <div class="span12">
+
+                <h4>When you're done, zip the whole project and send the compressed file to <a href="mailto:anri@binumi.com">anri@binumi.com</a></h4>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
